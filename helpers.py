@@ -107,7 +107,7 @@ def game_play():
 
 
 def get_weather(city):
-    api_key = "b977345bf10ea32346053de5a7f55568"
+    api_key = "your-api-key"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(url)
     print("HTTP Status Code: ", response.status_code)
