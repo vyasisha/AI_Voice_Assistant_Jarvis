@@ -1,7 +1,7 @@
 from imports import *
 from helpers import *
 
-openai.api_key = "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"
+openai.api_key = "your-api-key"
 
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty("voices")
