@@ -111,11 +111,11 @@ if __name__ == "__main__":
                     a = (1,2,3) # You can choose any number of songs (I have only choosen 3)
                     b = random.choice(a)
                     if b==1:
-                        webbrowser.open("https://www.youtube.com/watch?v=gdZLi9oWNZg&pp=ygUIZHluYW1pdGU%3D")
+                        webbrowser.open("youtube-link-to-your-favourite-song-1")
                     elif b==2:
-                        webbrowser.open("https://www.youtube.com/watch?v=WMweEpGlu_U&pp=ygUGYnV0dGVy")
+                        webbrowser.open("youtube-link-to-your-favourite-song-2")
                     else:
-                        webbrowser.open("https://www.youtube.com/watch?v=O1d2DYZZrek&pp=ygUdc3RhbmRpbmcgbmV4dCB0byB5b3UganVuZ2tvb2s%3D")
+                        webbrowser.open("youtube-link-to-your-favourite-song-3")
                 elif "screenshot" in query:
                      import pyautogui #pip install pyautogui
                      im = pyautogui.screenshot()
